@@ -1,0 +1,43 @@
+repositories {
+    maven {
+        url "http://kramayastage-sstagewp.refline/repo/"
+    }
+    mavenCentral()
+
+}
+
+project.ext.versions = [
+        amqpVersion: '1.0.0.RELEASE',
+        jackson: '1.8.1',
+        rabbitVersion: '2.6.1',
+        springVersion: '3.0.3.RELEASE',
+]
+
+project.ext.libraries = [
+        amqpClient: "com.rabbitmq:amqp-client:$versions.rabbitVersion",
+        aspectj: "aspectj:aspectjrt:1.5.4",
+        jacksonCore: "org.codehaus.jackson:jackson-core-asl:$versions.jackson",
+        jacksonMapper: "org.codehaus.jackson:jackson-mapper-asl:$versions.jackson",
+        jacksonXc: "org.codehaus.jackson:jackson-xc:$versions.jackson",
+        jstl: "javax.servlet:jstl:1.2",
+        json: "org.json:json:20090211",
+        junit: "junit:junit:4.8.1",
+        hibernateEntityManager: "org.hibernate:hibernate-entitymanager:3.6.9.Final",
+        hibernateJpa: "org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final",
+        hibernateValidator: "org.hibernate:hibernate-validator:4.2.0.Final",
+        mail: "javax.mail:mail:1.4",
+        ojdbc14: "com.oracle:ojdbc14:10.2.0.4.0",
+        servletApi: "javax.servlet:servlet-api:2.5",
+        slf4j: "org.slf4j:slf4j-log4j12:1.6.1",
+        springWeb: "org.springframework:spring-web:$versions.springVersion",
+        springContext: "org.springframework:spring-context:$versions.springVersion",
+        springWebMvc: "org.springframework:spring-webmvc:$versions.springVersion",
+        springAspects: "org.springframework:spring-aspects:$versions.springVersion",
+        springOrg: "org.springframework:spring-orm:$versions.springVersion",
+        springOxm: "org.springframework:spring-oxm:$versions.springVersion",
+        springRabbit: "org.springframework.amqp:spring-rabbit:$versions.amqpVersion",
+        springAmqp: "org.springframework.amqp:spring-amqp:$versions.amqpVersion",
+        notificationWrapper: "com.smartrecruiters.notification.wrappers:wrapper:0.2",
+        xstream: "com.thoughtworks.xstream:xstream:1.3.1"
+]
+

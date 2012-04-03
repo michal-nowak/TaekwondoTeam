@@ -1,0 +1,23 @@
+apply plugin: 'war'
+apply plugin: 'idea'
+apply from: 'dependencies.gradle'
+
+description = 'Taekwondo tournament project'
+version = 1.0
+sourceCompatibility = 1.6
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': description, 'Implementation-Version': version
+    }
+}
+
+
+
+dependencies {
+    compile libraries.slf4j
+    providedCompile libraries.servletApi
+    providedCompile libraries.mail
+    testCompile libraries.junit
+}
+

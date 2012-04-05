@@ -12,7 +12,7 @@ jar {
     }
 }
 
-
+//adding some dependencies
 
 dependencies {
     compile libraries.slf4j

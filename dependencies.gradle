@@ -10,7 +10,7 @@ project.ext.versions = [
         amqpVersion: '1.0.0.RELEASE',
         jackson: '1.8.1',
         rabbitVersion: '2.6.1',
-        springVersion: '3.0.3.RELEASE',
+        springVersion: '3.1.0.RELEASE',
 ]
 
 project.ext.libraries = [

@@ -1,0 +1,12 @@
+total 40
+drwxrwxr-x  4 michal michal 4096 wrz  9 20:55 ./
+drwxrwxr-x 15 michal michal 4096 wrz  9 20:44 ../
+-rw-rw-r--  1 michal michal  473 wrz  9 20:44 build.gradle
+-rw-rw-r--  1 michal michal    0 wrz  9 20:55 content.txt
+-rw-rw-r--  1 michal michal 2011 wrz  9 20:44 dependencies.gradle
+-rw-rw-r--  1 michal michal   31 wrz  9 20:52 feature-b.txt
+drwxrwxr-x  8 michal michal 4096 wrz  9 20:55 .git/
+-rw-rw-r--  1 michal michal   31 wrz  9 20:44 .gitignore
+-rw-rw-r--  1 michal michal  129 wrz  9 20:44 README
+drwxrwxr-x  4 michal michal 4096 wrz  9 20:44 src/
+-rw-rw-r--  1 michal michal   52 wrz  9 20:44 test.json

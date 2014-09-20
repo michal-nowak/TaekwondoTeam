@@ -3,4 +3,7 @@
 *.ipr
 .idea/
 out/
+build
+classes
+
 

@@ -5,4 +5,7 @@
  * Time: 00:21
  */
 public class Puncher {
+    public static void main(String[] args) {
+
+    }
 }

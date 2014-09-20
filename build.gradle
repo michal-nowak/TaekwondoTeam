@@ -3,7 +3,6 @@ apply plugin: 'idea'
 apply from: 'dependencies.gradle'
 
 description = 'Taekwondo tournament project'
-version = 1.0
 sourceCompatibility = 1.6
 
 jar {

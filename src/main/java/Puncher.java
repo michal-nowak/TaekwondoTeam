@@ -7,5 +7,7 @@
 public class Puncher {
     public static void main(String[] args) {
         System.out.println("ziom");
+        System.out.println("ziom");
+        System.out.println("ziom");
     }
 }
